@@ -16,6 +16,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-          repository: <user-name>/distroless-image
+          repository: joshuawe45/distroless-image
           tags: latest
 
